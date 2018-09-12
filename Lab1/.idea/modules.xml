@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:$PROJECT_DIR$/../../../../../../../////umd-home.umd.umich.edu/echarnes/Private/My Documents/GitHub/CIS1501-Fall2018/Lab1/.idea/Lab1.iml" filepath="///umd-home.umd.umich.edu/echarnes/Private/My Documents/GitHub/CIS1501-Fall2018/Lab1/.idea/Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab1.iml" filepath="$PROJECT_DIR$/.idea/Lab1.iml" />
+      <module fileurl="file://file:C:/../////umd-home.umd.umich.edu/echarnes/Private/My Documents/GitHub/CIS1501-Fall2018/Lab1/.idea/Lab1.iml" filepath="file:C:/../////umd-home.umd.umich.edu/echarnes/Private/My Documents/GitHub/CIS1501-Fall2018/Lab1/.idea/Lab1.iml" />
     </modules>
   </component>
 </project>
