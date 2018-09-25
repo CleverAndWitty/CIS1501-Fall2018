@@ -5,20 +5,23 @@ highest_number = int(input("What is the largest number you want to guess? ") )
 number_to_guess = random.randint(1, highest_number)
 print("Alright, the computer picked a random number between 1 and %d"
       % highest_number )
-guess = int(input("Guess a number!"))
+
 keep_guessing = True
+number_of_guesses = 1
 
-if guess == number_to_guess:
-    print("You win!")
-    keep_guessing = False
-elif guess < number_to_guess:
-    print("Too low!")
-else:
-    print("Too high!")
+while keep_guessing and number_of_guesses <= 10:
+    guess = int(input("Guess a number!"))
+    number_to_guess += 1
+    if guess == number_to_guess:
+        print("You win!")
+        keep_guessing = False
+    elif guess < number_to_guess:
+        print("Too low!")
+    else:
+        print("Too high!")
 
-if keep_guessing:
-    print("Didn't guess it yet?")
-
+if number_of_guesses > 10:
+    print("You ran out of guesses, the number was %d" % number_to_guess)
 
 
 items_for_sale = {
