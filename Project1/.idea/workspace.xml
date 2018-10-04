@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e55140-8b8e-4a1c-857e-3ce11173a5c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Week4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week5/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="93e55140-8b8e-4a1c-857e-3ce11173a5c3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="500">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
               <folding>
                 <marker date="1538683859882" expanded="true" signature="443:575" ph="..." />
               </folding>
@@ -157,8 +154,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="500">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
           <folding>
             <marker date="1538683859882" expanded="true" signature="443:575" ph="..." />
           </folding>
