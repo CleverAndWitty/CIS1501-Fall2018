@@ -1,6 +1,6 @@
 # CIS1501-Fall2018
 
-
+```
 def is_prime(n):
     if n == 2:
         return True
@@ -10,3 +10,4 @@ def is_prime(n):
         if n%i==0:
             return False
     return True
+```
