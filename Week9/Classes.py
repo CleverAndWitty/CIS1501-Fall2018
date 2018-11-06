@@ -4,7 +4,9 @@ class Rotor:
     ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
     def __init__(self, seed):
+        self.position = 0
         self.mapping = {}
+        self.rotor_number = seed
         random.seed(seed)
         alphabet_list = []
         for letter in Rotor.ALPHABET:
@@ -20,7 +22,7 @@ class Rotor:
     def get_mapped_letter(self, letter):
         return self.mapping.get(letter, letter)
 
-    def shift_letter(self, letter, shift):
+    def _shift_letter(self, letter, shift):
         new_letter = chr(ord(letter) + shift)
         if new_letter > 'Z':
             new_letter = chr(ord(new_letter) - 26)
@@ -28,13 +30,19 @@ class Rotor:
 
     def rotate(self, rotations=1):
         new_rotor = {}
+        self.position += rotations
+        if self.position > 26:
+            self.position -= 26
 
         for first, second in self.mapping.items():
-            new_first = self.shift_letter(first, rotations)
-            new_second = self.shift_letter(second, rotations)
+            new_first = self._shift_letter(first, rotations)
+            new_second = self._shift_letter(second, rotations)
             new_rotor[new_first] = new_second
             new_rotor[new_second] = new_first
         self.mapping = new_rotor
+
+    def __str__(self):
+        return "Rotor Number: {} - Position: {}".format(self.rotor_number, self.position)
 
 
 class Enigma:
@@ -56,6 +64,7 @@ class Enigma:
         self.number_of_letters_encrypted = 0
 
     def get_encrypted_letter(self, letter):
+        self.number_of_letters_encrypted += 1
         letter = self.rotor1.get_mapped_letter(letter)
         letter = self.rotor2.get_mapped_letter(letter)
         letter = self.rotor3.get_mapped_letter(letter)
@@ -72,6 +81,9 @@ class Enigma:
 
         return letter
 
+    def __str__(self):
+        return "{} {} {}".format(self.rotor1, self.rotor2, self.rotor3)
+
 
 starting_positions = input("Enter the starting positions (1 2 3): ").split()
 my_machine = Enigma(int(starting_positions[0]),\
@@ -83,3 +95,4 @@ message = input("Enter a message to encrypt: ")
 for letter in message:
     print(my_machine.get_encrypted_letter(letter), end="")
 print()
+print(my_machine)
