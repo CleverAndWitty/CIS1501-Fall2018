@@ -1,4 +1,7 @@
 import Quadratic
+import math
+
+math.pi
 
 keep_going = 'y'
 
