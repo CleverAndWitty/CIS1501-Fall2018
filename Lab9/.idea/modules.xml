@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:$PROJECT_DIR$/../../../../../../..//$PROJECT_DIR$/.idea/Lab9.iml" filepath="$PROJECT_DIR$/.idea/Lab9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab9.iml" filepath="$PROJECT_DIR$/.idea/Lab9.iml" />
+      <module fileurl="file://file:C:/..//C:/Users/EricC/Documents/GitHub/CIS1501-Fall2018/Lab9/.idea/Lab9.iml" filepath="file:C:/..//C:/Users/EricC/Documents/GitHub/CIS1501-Fall2018/Lab9/.idea/Lab9.iml" />
     </modules>
   </component>
 </project>
