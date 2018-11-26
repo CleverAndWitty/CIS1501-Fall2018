@@ -12,3 +12,8 @@ class TestPolygon(TestCase):
         test_polygon = Polygons.Polygon(3, [1, 2, 3])
         with self.assertRaises(NotImplementedError):
             test_polygon.get_area()
+
+
+    def test___init__(self):
+        with self.assertRaises(Polygons.InvalidNumberOfSideLengths):
+            Polygons.Polygon(3,[1,2])
