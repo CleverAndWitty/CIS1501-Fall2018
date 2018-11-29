@@ -27,4 +27,34 @@ def fib(nth):
     else:
         return fib(nth-1) + fib(nth-2)
 
-print(fib(40))
+
+def _better_fib(targetNth, previous, current, currentNth):
+    if targetNth == currentNth:
+        return current
+    return _better_fib(targetNth, current, previous+current, currentNth+1)
+
+def better_fib(nth):
+    if nth <= 0:
+        return 0
+    elif nth == 1 or nth == 2:
+        return 1
+    return _better_fib(nth, 1, 1, 2)
+
+def better_fib_iterative(nth):
+    if nth <= 0:
+        return 0
+    elif nth == 1 or nth == 2:
+        return 1
+    else:
+        current = 1
+        previous = 1
+        currentNth = 2
+        while currentNth != nth:
+            next = current + previous
+            previous = current
+            current = next
+            currentNth += 1
+
+
+
+print(better_fib(40))
