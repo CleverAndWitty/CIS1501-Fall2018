@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f1dbc18-d33c-40af-ac76-3d47e70ca27a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_gradeCalculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_sum_of_values_on_chessboard_squares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sum_of_values_on_chessboard_squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sum_of_values_on_chessboard_squares.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1295" />
+          <entry key="py" value="1340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1295" />
+          <entry key="Python" value="1340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_sum_of_values_on_chessboard_squares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -289,7 +286,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897863" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_sum_of_values_on_chessboard_squares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

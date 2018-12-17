@@ -13,7 +13,6 @@ class TestSum_of_values_on_chessboard_squares(TestCase):
             [10,20,30,40,50,60,70,80],
             [1,2,1,2,1,2,1,2]
         ]
-        for row in board:
-            print(sum(row))
+
         self.assertEqual(308,Review.sum_of_values_on_chessboard_squares('white', board))
         self.assertEqual(280, Review.sum_of_values_on_chessboard_squares('black', board))
